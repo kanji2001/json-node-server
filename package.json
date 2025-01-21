@@ -5,9 +5,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
-    "dev1": "nodemon json-server db.json",
-    "dev2": "nodemon json-server db.json --watch db.json",
-    "dev3": "json-server db.json --watch db.json"
+    "dev3": "json-server db.json --watch db.json",
+    "dev2": "json-server db.json db.json",
+    "build": "node db.json"
   },
   "keywords": [],
   "author": "",
